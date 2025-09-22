@@ -46,6 +46,9 @@ import OpenDay from "./pages/OpenDay";
 import Specialties from "./pages/Specialties";
 import AdmissionRules from "./pages/AdmissionRules";
 import CareerMaps from "./pages/CareerMaps";
+import RussiaBelarusConference from "./pages/RussiaBelarusConference";
+import SferumMySchool from "./pages/SferumMySchool";
+import RailwayEmployers from "./pages/RailwayEmployers";
 
 const queryClient = new QueryClient();
 
@@ -103,6 +106,9 @@ const App = () => (
           <Route path="/applicants/specialties" element={<Specialties />} />
           <Route path="/applicants/admission-rules" element={<AdmissionRules />} />
           <Route path="/applicants/career-maps" element={<CareerMaps />} />
+          <Route path="/russia-belarus-conference" element={<RussiaBelarusConference />} />
+          <Route path="/sferum-myschool" element={<SferumMySchool />} />
+          <Route path="/railway-employers" element={<RailwayEmployers />} />
           
           {/* Simple text pages */}
           

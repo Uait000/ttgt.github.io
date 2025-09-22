@@ -172,10 +172,10 @@ const Header = () => {
 
           {/* Mobile menu button */}
           <button className="lg:hidden p-2">
-            <div className="w-5 h-5 flex flex-col justify-center space-y-1">
+          <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
               <div className="w-full h-0.5 bg-foreground"></div>
-              <div className="w-full h-0.5 bg-foreground"></div>
-              <div className="w-full h-0.5 bg-foreground"></div>
+            <span className="text-xs font-bold text-primary max-w-xs leading-tight">
+              Тихорецкий техникум железнодорожного транспорта<br />– филиал РГУПС
             </div>
           </button>
         </div>
