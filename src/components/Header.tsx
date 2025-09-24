@@ -22,7 +22,8 @@ const Header = () => {
     },
     {
       label: 'Сведения об образовательной организации',
-      href: '#',
+      href: 'https://www.rgups.ru/filiali/ttgt/',
+      external: true,
       submenu: [
         { label: 'История', href: '/history' },
         { label: 'Администрация', href: '/administration' },
@@ -77,7 +78,8 @@ const Header = () => {
     },
     {
       label: 'Абитуриенту',
-      href: '#',
+      href: 'https://rgups.ru/abitur',
+      external: true,
       submenu: [
         { label: 'Онлайн-опрос', href: '/online-survey' }
       ]
@@ -134,6 +136,7 @@ const Header = () => {
                     {openDropdown === item.label && (
                       <div 
                         className="absolute top-full left-0 mt-1 w-80 bg-white border border-border rounded-lg shadow-lg z-50"
+                              className="block px-4 py-2 text-sm text-foreground hover:bg-primary/5 hover:text-primary transition-colors text-center"
                         onMouseEnter={() => setOpenDropdown(item.label)}
                         onMouseLeave={() => setOpenDropdown(null)}
                       >
